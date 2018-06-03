@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "LongCube";
+    src: url(/LongCube.ttf) format("truetype");
+}
+body { 
+    font-family: "LongCube", Courier New, Comic Sans MS;
+	font-size: 20px;
+}
