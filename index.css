@@ -4,5 +4,17 @@
 }
 body { 
     font-family: "LongCube", Courier New, Comic Sans MS;
-	font-size: 20px;
+}
+h1 {
+	font-size: 50px;
+}
+a {
+	cursor: pointer;
+}
+#center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
 }
