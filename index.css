@@ -15,18 +15,21 @@ h2 {
 }
 a {
 	cursor: pointer;
+	color: #FFFFFF;
+	text-decoration:none;
+	-webkit-transition: width 0.5s; transition: width 0.5s;
 }
 a#b:hover {
-	text-shadow: 0px 0px 3px #FFFFFF, 0px 0px 5px #1DA1F2, 0px 0px 5px #1DA1F2, 0px 0px 5px #1DA1F2, 0px 0px 5px #1DA1F2;
+	text-shadow: #FFFFFF 0px 0px 5px, #FFFFFF 0px 0px 10px, #FFFFFF 0px 0px 15px, #1DA1F2 0px 0px 20px, #1DA1F2 0px 0px 30px, #1DA1F2 0px 0px 40px, #1DA1F2 0px 0px 50px, #1DA1F2 0px 0px 75px;
 }
 a#r:hover {
-	text-shadow: 0px 0px 3px #FFFFFF, 0px 0px 5px #CD2223, 0px 0px 5px #CD2223, 0px 0px 5px #CD2223, 0px 0px 5px #CD2223;
+	text-shadow: #FFFFFF 0px 0px 5px, #FFFFFF 0px 0px 10px, #FFFFFF 0px 0px 15px, #CD2223 0px 0px 20px, #CD2223 0px 0px 30px, #CD2223 0px 0px 40px, #CD2223 0px 0px 50px, #CD2223 0px 0px 75px;
 }
 a#y:hover {
-	text-shadow: 0px 0px 3px #FFFFFF, 0px 0px 5px #62479E, 0px 0px 5px #62479E, 0px 0px 5px #62479E, 0px 0px 5px #62479E;
+	text-shadow: #FFFFFF 0px 0px 5px, #FFFFFF 0px 0px 10px, #FFFFFF 0px 0px 15px, #62479E 0px 0px 20px, #62479E 0px 0px 30px, #62479E 0px 0px 40px, #62479E 0px 0px 50px, #62479E 0px 0px 75px;
 }
 a#n:hover {
-	text-shadow: 0px 0px 3px #FFFFFF, 0px 0px 5px #FF5315, 0px 0px 5px #FF5315, 0px 0px 5px #FF5315, 0px 0px 5px #FF5315;
+	text-shadow: #FFFFFF 0px 0px 5px, #FFFFFF 0px 0px 10px, #FFFFFF 0px 0px 15px, #FF5315 0px 0px 20px, #FF5315 0px 0px 30px, #FF5315 0px 0px 40px, #FF5315 0px 0px 50px, #FF5315 0px 0px 75px;
 }
 #center {
 	position: absolute;
