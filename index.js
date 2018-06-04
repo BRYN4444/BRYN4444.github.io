@@ -5,8 +5,8 @@ $(document).ready(function() {
 	
 	var thequote;    
 	$('a').hover(function(){
-		oldtext = $(this).text();
 		linktext = $(this).attr('href');
+		oldtext = $('h2').text();
 		$('h2').text(linktext);
 	}, function(){
 		$('h2').text(oldtext)

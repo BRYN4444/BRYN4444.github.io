@@ -6,6 +6,7 @@ body {
     font-family: "LongCube", Courier New, Comic Sans MS;
 	background-color: #000000;
 	color: #FFFFFF;
+	cursor: default;
 }
 h1 {
 	font-size: 100px;
@@ -30,6 +31,9 @@ a#y:hover {
 }
 a#n:hover {
 	text-shadow: #FFFFFF 0px 0px 5px, #FFFFFF 0px 0px 10px, #FFFFFF 0px 0px 15px, #FF5315 0px 0px 20px, #FF5315 0px 0px 30px, #FF5315 0px 0px 40px, #FF5315 0px 0px 50px, #FF5315 0px 0px 75px;
+}
+a#info:hover {
+	text-shadow: #FFFFFF 0px 0px 5px, #FFFFFF 0px 0px 10px, #FFFFFF 0px 0px 15px, #AAAAAA 0px 0px 20px, #AAAAAA 0px 0px 30px, #AAAAAA 0px 0px 40px, #AAAAAA 0px 0px 50px, #AAAAAA 0px 0px 75px;
 }
 #center {
 	position: absolute;
