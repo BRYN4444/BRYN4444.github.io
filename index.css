@@ -4,12 +4,29 @@
 }
 body { 
     font-family: "LongCube", Courier New, Comic Sans MS;
+	background-color: #000000;
+	color: #FFFFFF;
 }
 h1 {
-	font-size: 50px;
+	font-size: 100px;
+}
+h2 {
+	font-size: 24px;
 }
 a {
 	cursor: pointer;
+}
+a#b:hover {
+	text-shadow: 0px 0px 3px #FFFFFF, 0px 0px 5px #1DA1F2, 0px 0px 5px #1DA1F2, 0px 0px 5px #1DA1F2, 0px 0px 5px #1DA1F2;
+}
+a#r:hover {
+	text-shadow: 0px 0px 3px #FFFFFF, 0px 0px 5px #CD2223, 0px 0px 5px #CD2223, 0px 0px 5px #CD2223, 0px 0px 5px #CD2223;
+}
+a#y:hover {
+	text-shadow: 0px 0px 3px #FFFFFF, 0px 0px 5px #62479E, 0px 0px 5px #62479E, 0px 0px 5px #62479E, 0px 0px 5px #62479E;
+}
+a#n:hover {
+	text-shadow: 0px 0px 3px #FFFFFF, 0px 0px 5px #FF5315, 0px 0px 5px #FF5315, 0px 0px 5px #FF5315, 0px 0px 5px #FF5315;
 }
 #center {
 	position: absolute;
