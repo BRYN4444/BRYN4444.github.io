@@ -7,8 +7,8 @@ $(document).ready(function() {
 	$('a').hover(function(){
 		oldtext = $(this).text();
 		linktext = $(this).attr('href');
-		$(this).text(linktext);
+		$('h2').text(linktext);
 	}, function(){
-		$(this).text(oldtext)
+		$('h2').text(oldtext)
 	});
 });
