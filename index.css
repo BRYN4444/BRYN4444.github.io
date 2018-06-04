@@ -10,16 +10,20 @@ body {
 }
 h1 {
 	font-size: 100px;
+	font-weight: normal;
+	margin: 0;
 }
 h2 {
 	font-size: 24px;
+	font-weight: normal;
+	margin: 0;
 }
 a {
 	cursor: pointer;
 	color: #FFFFFF;
-	text-decoration:none;
+	text-decoration: none;
 	-webkit-transition: text-shadow 0.2s; transition: text-shadow 0.2s;
-	outline:0;
+	outline: 0;
 }
 a#b:hover {
 	text-shadow: #FFFFFF 0px 0px 5px, #FFFFFF 0px 0px 10px, #FFFFFF 0px 0px 15px, #1DA1F2 0px 0px 20px, #1DA1F2 0px 0px 30px, #1DA1F2 0px 0px 40px, #1DA1F2 0px 0px 50px, #1DA1F2 0px 0px 75px;
@@ -38,6 +42,9 @@ a#dot:hover {
 }
 a#info:hover {
 	text-shadow: #FFFFFF 0px 0px 5px, #FFFFFF 0px 0px 10px, #FFFFFF 0px 0px 15px, #AAAAAA 0px 0px 20px, #AAAAAA 0px 0px 30px, #AAAAAA 0px 0px 40px, #AAAAAA 0px 0px 50px, #AAAAAA 0px 0px 75px;
+}
+a#info span {
+	margin-left: -14px;
 }
 #center {
 	position: absolute;
