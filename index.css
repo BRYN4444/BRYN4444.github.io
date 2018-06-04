@@ -1,9 +1,9 @@
 @font-face {
-    font-family: "LongCube";
-    src: url(/LongCube.ttf) format("truetype");
+    font-family: "CaseSensitive";
+    src: url(/CaseSensitive.ttf) format("truetype");
 }
 body { 
-    font-family: "LongCube", Courier New, Comic Sans MS;
+    font-family: "CaseSensitive", Courier New, Comic Sans MS;
 	background-color: #000000;
 	color: #FFFFFF;
 	cursor: default;
