@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var quotes = new Array("Dabbles in a little bit of everything.", "Be cool. Just once, be cool.", "So, this is how you're spending your time?"),
+    var quotes = new Array("Dabbles in a little bit of everything.", "Be cool. Just once, be cool.", "So, this is how you're spending your time?","Yes, the font is hand-made. Thanks for asking.","Proud supporter of dark themes for every website.","Your redirection destination."),
     randno = quotes[Math.floor( Math.random() * quotes.length )];
     $('h2').text( randno );
 	
