@@ -5,7 +5,8 @@ $(document).ready(function() {
 	
 	var thequote;    
 	$('a').hover(function(){
-		linktext = $(this).attr('href');
+		linkurl = $(this).attr('href');
+		linktext = linkurl.replace(/^https?:\/\//,'')
 		oldtext = $('h2').text();
 		$('h2').text(linktext);
 	}, function(){
