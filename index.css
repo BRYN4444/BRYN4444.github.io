@@ -1,6 +1,6 @@
 @font-face {
     font-family: "CaseSensitive";
-    src: url(/CaseSensitive.ttf) format("truetype");
+    src: url(./CaseSensitive.ttf) format("truetype");
 }
 body { 
     font-family: "CaseSensitive", Courier New, Comic Sans MS;
@@ -12,11 +12,21 @@ h1 {
 	font-size: 100px;
 	font-weight: normal;
 	margin: 0;
+	-webkit-transition: text-shadow 0.2s; transition: text-shadow 0.2s;
+	outline: 0;
 }
 h2 {
 	font-size: 24px;
 	font-weight: normal;
 	margin: 0;
+	height:34px;
+}
+hr {
+	color:transparent;
+	background:radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+	height:10px;
+	width:80vw;
+	margin:20px 0;
 }
 a {
 	cursor: pointer;
@@ -25,26 +35,17 @@ a {
 	-webkit-transition: text-shadow 0.2s; transition: text-shadow 0.2s;
 	outline: 0;
 }
-a#b:hover {
-	text-shadow: #FFFFFF 0px 0px 5px, #FFFFFF 0px 0px 10px, #FFFFFF 0px 0px 15px, #1DA1F2 0px 0px 20px, #1DA1F2 0px 0px 30px, #1DA1F2 0px 0px 40px, #1DA1F2 0px 0px 50px, #1DA1F2 0px 0px 75px;
-}
-a#r:hover {
-	text-shadow: #FFFFFF 0px 0px 5px, #FFFFFF 0px 0px 10px, #FFFFFF 0px 0px 15px, #CD2223 0px 0px 20px, #CD2223 0px 0px 30px, #CD2223 0px 0px 40px, #CD2223 0px 0px 50px, #CD2223 0px 0px 75px;
-}
-a#y:hover {
-	text-shadow: #FFFFFF 0px 0px 5px, #FFFFFF 0px 0px 10px, #FFFFFF 0px 0px 15px, #62479E 0px 0px 20px, #62479E 0px 0px 30px, #62479E 0px 0px 40px, #62479E 0px 0px 50px, #62479E 0px 0px 75px;
-}
-a#n:hover {
-	text-shadow: #FFFFFF 0px 0px 5px, #FFFFFF 0px 0px 10px, #FFFFFF 0px 0px 15px, #FF5315 0px 0px 20px, #FF5315 0px 0px 30px, #FF5315 0px 0px 40px, #FF5315 0px 0px 50px, #FF5315 0px 0px 75px;
-}
-a#dot:hover {
-	text-shadow: #FFFFFF 0px 0px 5px, #FFFFFF 0px 0px 10px, #FFFFFF 0px 0px 15px, #00CC00 0px 0px 20px, #00CC00 0px 0px 30px, #00CC00 0px 0px 40px, #00CC00 0px 0px 50px, #00CC00 0px 0px 75px;
-}
-a#info:hover {
+a:hover {
 	text-shadow: #FFFFFF 0px 0px 5px, #FFFFFF 0px 0px 10px, #FFFFFF 0px 0px 15px, #AAAAAA 0px 0px 20px, #AAAAAA 0px 0px 30px, #AAAAAA 0px 0px 40px, #AAAAAA 0px 0px 50px, #AAAAAA 0px 0px 75px;
 }
-a#info span {
-	margin-left: -14px;
+.blue {
+	text-shadow: #FFFFFF 0px 0px 5px, #FFFFFF 0px 0px 10px, #FFFFFF 0px 0px 15px, #0085ff 0px 0px 20px, #0085ff 0px 0px 30px, #0085ff 0px 0px 40px, #0085ff 0px 0px 50px, #0085ff 0px 0px 75px;
+}
+.red {
+	text-shadow: #FFFFFF 0px 0px 5px, #FFFFFF 0px 0px 10px, #FFFFFF 0px 0px 15px, #ff0000 0px 0px 20px, #ff0000 0px 0px 30px, #ff0000 0px 0px 40px, #ff0000 0px 0px 50px, #ff0000 0px 0px 75px;
+}
+.purple {
+	text-shadow: #FFFFFF 0px 0px 5px, #FFFFFF 0px 0px 10px, #FFFFFF 0px 0px 15px, #9147ff 0px 0px 20px, #9147ff 0px 0px 30px, #9147ff 0px 0px 40px, #9147ff 0px 0px 50px, #9147ff 0px 0px 75px;
 }
 #center {
 	position: absolute;
