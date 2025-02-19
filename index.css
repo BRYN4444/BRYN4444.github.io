@@ -47,6 +47,11 @@ a:hover {
 .purple {
 	text-shadow: #FFFFFF 0px 0px 5px, #FFFFFF 0px 0px 10px, #FFFFFF 0px 0px 15px, #9147ff 0px 0px 20px, #9147ff 0px 0px 30px, #9147ff 0px 0px 40px, #9147ff 0px 0px 50px, #9147ff 0px 0px 75px;
 }
+.roulette {
+	color:#000000;
+	text-shadow: #000000 0px 0px 5px, #000000 0px 0px 10px, #000000 0px 0px 15px, #ff000f 0px 0px 20px, #ff000f 0px 0px 30px, #ff000f 0px 0px 40px, #660105 0px 0px 50px, #660105 0px 0px 75px;
+}
+
 #center {
 	position: absolute;
 	top: 50%;

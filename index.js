@@ -1,11 +1,14 @@
 $(document).ready(function() {
 	
 	/*Random Text*/
-	var quotes = ["Generally inimportant.",
+	var quotes = ["Generally Unimportant.",
+	"*Dies To A Spelling Mistake*",
+	"Video Games!",
 	"Be cool. Just once, be cool.",
 	"Proud supporter of dark themes for every website.",
 	"Your Ad Here!",
-	"Your redirection destination."];
+	"Ironically, not very much “info”.",
+	"A redirection destination."];
     var index = 0;
 
     function updateText() {
@@ -34,6 +37,11 @@ $(document).ready(function() {
 		$( "h1" ).addClass('purple');
 	}, function() {
 		$( "h1" ).removeClass('purple');
+	});
+	$( "a#roulette" ).hover(function() {
+		$( "h1" ).addClass('roulette');
+	}, function() {
+		$( "h1" ).removeClass('roulette');
 	});
 	
 });
